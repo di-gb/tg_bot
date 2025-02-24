@@ -77,6 +77,18 @@ public class MyBot extends TelegramLongPollingBot {
         QUESTIONS.add(new Question("тестовый вопрос",
                 List.of("1", "2", "3", "4"),
                 3));
+        QUESTIONS.add(new Question("тестовый вопрос",
+                List.of("1", "658", "3", "4"),
+                4));
+        QUESTIONS.add(new Question("тестовый вопрос",
+                List.of("1", "856", "567", "568"),
+                2));
+        QUESTIONS.add(new Question("тестовый вопрос",
+                List.of("1", "658", "3", "4"),
+                1));
+        QUESTIONS.add(new Question("тестовый вопрос",
+                List.of("1", "856", "567", "568"),
+                1));
     }
 
 
